@@ -1,0 +1,314 @@
+body {
+    font-family: "Poppins", sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color:#f7f1f1;
+}
+
+header {
+    background-color: #0b294b;
+    color: white;
+    padding: 30 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-container img {
+    width: 60px; 
+    height: auto;
+    margin-right: 10px; 
+    margin-left:30px;
+}
+
+header h1 {
+    margin: 0;
+    padding:30px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-size:25px;
+    margin: 0;
+    padding:30px;
+    display: flex;
+    margin-right:50px;
+}
+
+nav ul li a:hover {
+    color:#3f89e9;
+    transition:0.3s;
+    text-decoration:underline;
+}
+
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+}
+
+.dropdown-menu{
+    position: absolute;
+    font-size:20px;
+    display:none;
+    padding-top:10px;
+    background-color:#0b294b;
+    width:300px;
+    height:320px;
+    text-align:center;
+    border: 1px solid white;
+}
+
+.dropdown-menu a{
+    display:block;
+    padding:2px;
+}
+
+.dropdown-menu a:hover{
+    color:#3f89e9;
+    text-decoration:underline;
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+    
+}
+
+.intro {
+    padding: 20px;
+    height:700px;
+}
+
+.intro h2{
+    text-align:center;
+    color:#0b294b;
+    font-size:50px;
+}
+
+#praias{
+    padding-top:20px;
+}
+
+#praias h1{
+    text-align:center;
+    color:#0b294b;
+    font-size:50px;
+}
+
+.intro p{
+    text-align:center;
+    font-size:25px;
+    color: rgb(59, 58, 57);
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    height:565px;
+    margin: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align:center;
+    border-radius:20px;
+    
+    
+}
+
+.card h3, .card a{
+    margin: 15px 10px 10px;
+    color : #154881;
+    text-decoration:overline;
+}
+
+.card h3, .card a:hover{
+    margin: 15px 10px 10px;
+    color : #3f89e9;
+    text-decoration:overline;
+    transition:0.3s;
+}
+
+.card p {
+    margin: 0 15px 10px; 
+    color : rgb(59, 58, 57);
+    
+    
+}
+
+.card img{
+    height:70%;
+    width:100%;
+}
+
+#sobre img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+#referencias{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: "Poppins", sans-serif;
+}
+
+#referencias h2{
+color:white;
+}
+
+#referencias p{
+     color: #0b294b;
+    font-weight:600;
+    font-size:25px;
+}
+
+
+
+.praia1 h2, .praia2 h2, .praia3 h2, .praia4 h2, .praia5 h2, .praia6 h2, .praia7 h2, .praia8 h2, .praia9 h2{
+    color:#0b294b;
+    font-size:55px;
+    text-align: center;
+    
+}
+
+
+
+
+
+.praia1, .praia2, .praia3, .praia4, .praia5, .praia6, .praia7, .praia8, .praia9{
+    padding: 20px;
+    margin:20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.referencias {
+    font-family: "Poppins", sans-serif;
+}
+
+.referencias h4{
+    font-size:35px;
+    color: #0b294b; 
+}
+
+.introducao h4{
+    font-size:35px;
+    color: #0b294b;
+}
+
+.introducao{
+    margin:40px;                  
+    border-top: 3px solid #0b294b;
+} 
+
+.introducao p{
+    font-size:20px;
+}
+
+.especies{
+    margin:40px;                  
+    border-top: 3px solid #0b294b;
+}
+
+.especies h4{
+    font-size:35px;
+    color: #0b294b;
+}
+
+.especies p{
+    font-size:20px;
+}
+
+.especies img{
+    width:350px;
+    height:200px;
+}
+
+.especies h5{
+    margin-top:-5px;
+    color:gray;
+}
+
+.especies h3{
+    font-size:23px;
+    color:#1a1b1d;
+}
+
+.balneabilidade{
+    margin:40px;                  
+    border-top: 3px solid #0b294b;
+}
+
+.balneabilidade h4{
+    font-size:35px;
+    color: #0b294b;
+}
+
+.balneabilidade p{
+    font-size:20px;
+}
+
+.tabelas{
+    margin:40px;                  
+    border-top: 3px solid #0b294b;
+}
+
+.tabelas h4{
+    font-size:35px;
+    color: #0b294b;
+}
+
+.tabelas p{
+    font-size:20px;
+}
+
+.graficos{
+    margin:40px;                  
+    
+}
+
+.graficos h2{
+    color:#0b294b;
+    font-size:55px;
+    text-align: center;
+    
+}
+
+.graficos h4{
+    
+    font-size:30px;
+    color: #0b294b; 
+}
+
+.graficos h3{
+    font-size:23px;
+    color:#1a1b1d; 
+}
+
